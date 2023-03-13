@@ -1,28 +1,28 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  trf,
+  unblocked,
+  capgemini,
+  java,
+  spring,
+  aws,
+  linux,
+  sql
+
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +42,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  
 ];
 
 const technologies = [
@@ -73,8 +70,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name:"Java",
+    icon: java
+  },
+  {
+    name:"Spring",
+    icon: spring
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "React JS",
@@ -85,88 +90,74 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: sql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  {
+    name:"aws",
+    icon: aws
+  },
+  {
+    name:"linux",
+    icon: linux
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Capgemini",
+    icon: capgemini,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web application backends using Spring Boot (Java) and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designing graph database for efficient data modeling and querying.",
+      "Implementing unit and integration tests to ensure that the application was functioning correctly and reliably",
+      "Writing detailed documentation on the functionality and architecture of the application, making it easy for other developers to understand and maintain the code",
+      "Facilitating discussions and ensuring that the team was working effectively and efficiently towards meeting the project goals",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "TRF Retail",
+    icon: trf,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Dec 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Adding new routes to an existing REST API using Node.js and TypeScript",
+      "Developing scalable and robust services that could handle large volumes of data (MariaDB)",
+      "Implementing interactive dashboards (Vue.js, Vuex, Plotly) highlighting KPIs and providing users with an intuitive and user-friendly way to interact with the data",
     ],
   },
+  {
+    title: "Full stack Developer",
+    company_name: "Unblocked",
+    icon: unblocked,
+    iconBg: "#383E56",
+    date: "May 2021 - Aug 2021",
+    points: [
+      "Researching and keeping up-to-date with the latest advancements in blockchain technologies.",
+      "Implemented a Hyperledger Fabric blockchain network, developing the smart contracts and configuring the network nodes.",
+      "Designing and developing a REST API using Node.js that allowed for secure and reliable communication between the blockchain network and the frontend.",
+      "Developing the frontend using React.js to provide users with an intuitive and user-friendly way to interact with the blockchain network.",
+    ],
+  },
+
 ];
 
 const testimonials = [
