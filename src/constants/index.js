@@ -109,10 +109,10 @@ const technologies = [
     name:"aws",
     icon: aws
   },
-  {
-    name:"linux",
-    icon: linux
-  }
+  // {
+  //   name:"linux",
+  //   icon: linux
+  // }
 ];
 
 const experiences = [
