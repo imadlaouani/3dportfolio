@@ -50,7 +50,7 @@ const BallCanvas = ({ icon, name }) => {
       </Suspense>
       <Preload all />
     </Canvas>
-      <p className="text-secondary text-center text-[14px] pt-1">{name}</p>
+      <p className="text-secondary text-center text-[14px] pt-1 font-medium">{name}</p>
     </>
   );
 };

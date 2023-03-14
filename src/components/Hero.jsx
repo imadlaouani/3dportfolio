@@ -19,10 +19,10 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Imad</span>
           </h1>
           <p
-            className={`${styles.heroSubText} mt-2 text-white-100 max-w-[40ch]`}
+            className={`${styles.heroSubText} mt-2 text-white-100 max-w-[45ch]`}
           >
-            I'm a Full Stack Developer with a year of experience, passionate
-            about creating innovative and user-friendly web applications
+            I'm a passionate software engineer with expertise in full-stack development,
+            passionate about creating innovative and high-quality products.
           </p>
         </div>
       </div>
