@@ -32,25 +32,26 @@ const Ball = (props) => {
           map={decal}
           flatShading
         />
-      </mesh>
-    </Float>
+      </mesh>      
+     </Float>
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon, name }) => {
   return (
+    <>
     <Canvas
-      frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
+        <Ball imgUrl={icon} /> 
       </Suspense>
-
       <Preload all />
     </Canvas>
+      <p className="text-secondary text-center text-[14px] pt-1">{name}</p>
+    </>
   );
 };
 

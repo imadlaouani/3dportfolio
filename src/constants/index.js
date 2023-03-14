@@ -58,11 +58,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -74,7 +74,7 @@ const technologies = [
     icon: java
   },
   {
-    name:"Spring",
+    name:"Spring Boot",
     icon: spring
   },
   {
@@ -98,15 +98,15 @@ const technologies = [
     icon: sql,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
-    name:"aws",
+    name:"AWS",
     icon: aws
   },
   // {
