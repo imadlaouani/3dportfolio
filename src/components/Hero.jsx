@@ -21,9 +21,9 @@ const Hero = () => {
             Hi, I'm 
             <span className="text-[#915EFF]">
               <Typed strings={[
-            " Imad",
-            " a Software Engineer",
-            " a Fullstack Developer",
+            "  Imad",
+            "  a Software Engineer",
+            "  a Fullstack Developer",
           ]}
           typeSpeed={150}
           backSpeed={100}
