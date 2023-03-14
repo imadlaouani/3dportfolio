@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import Typed from "react-typed"
-
+import Typed from "react-typed";
 
 const Hero = () => {
   return (
@@ -18,23 +17,28 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm 
+            Hi, I'm
+            <span>
+              &nbsp;
+            </span>
             <span className="text-[#915EFF]">
-              <Typed strings={[
-            "  Imad",
-            "  a Software Engineer",
-            "  a Fullstack Developer",
-          ]}
-          typeSpeed={150}
-          backSpeed={100}
-          loop>
-                </Typed>
-                </span>
+              <Typed
+                strings={[
+                  "Imad",
+                  "a Software Engineer",
+                  "a Fullstack Developer",
+                ]}
+                typeSpeed={150}
+                backSpeed={100}
+                loop
+              ></Typed>
+            </span>
           </h1>
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 max-w-[45ch]`}
           >
-            I'm passionate about creating innovative and high-quality products that meet the needs of users and exceed expectations.
+            I'm passionate about creating innovative and high-quality products
+            that meet the needs of users and exceed expectations.
           </p>
         </div>
       </div>
