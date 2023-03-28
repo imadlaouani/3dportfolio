@@ -17,6 +17,5 @@ To see a live demo of my Full-Stack Developer Portfolio, please visit https://im
 - TailwindCSS
 - HTML5
 - CSS3
-- Bootstrap
 - EmailJS
 - Vite.js
