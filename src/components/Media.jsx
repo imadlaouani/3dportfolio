@@ -4,25 +4,19 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
+import resume from '/Resume_Imad_Laouani.pdf';
+
 
 
 
 const Media = () => {
   const downloadResume = () => {
-    // using Java Script method to get PDF file
-    fetch(
-      "https://assets.welcomekit.co/uploads/applicants/eed912ec1e/resume/af9e3e2017b5557639ef7208cc51a27f.pdf?Expires=1679503778&Signature=eFBl4pLHKakyT0vdxTh3z0djglWpnScvOn5xzAP9itypce8xeBvCk4v8mTX~Bmfs1EQxjvTnbfGY5guqX8eRJWabV6hjRuXinpzb9vkAD6qZl2nGu4WWENw6-wtfUvZ~rR7EUrYmEZEjUmEw5SAVcD-z~OpnaJn5Pw8iQG06gq6V0jJxMoR0gCMfZ83EsWx3B-DiCicivc~CMQWELAbN8PyliT7VTGDY3-vbZx71PGtTdN13zmKu7BGpa3nb3Bigaat-mhDXoUwOCZZh6M12ZKhgxA2cTWeh1c~uwiCpue11sgIxTAMnDWRyIaOOm4uw0jtQIonqfH5LjvxrHqHUgA__&Key-Pair-Id=APKAIVYSDUT2HNUEP3SA"
-    ).then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "Resume_Imad_Laouani.pdf";
-        alink.click();
-      });
-    });
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'Resume_Imad_Laouani.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
